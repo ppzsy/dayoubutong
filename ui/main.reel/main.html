@@ -16,7 +16,7 @@
         "actionEventListener": {
             "prototype": "montage/core/event/action-event-listener",
             "properties": {
-                "action": "addContent",
+                "action": "addTask",
                 "handler": {"@": "rangeController"}
             },
             "_dev": {
@@ -33,7 +33,7 @@
             "listeners": [
                 {
                     "type": "action",
-                    "useCapture": false,
+                    "useCapture": true,
                     "listener": {"@": "actionEventListener"}
                 }
             ]
